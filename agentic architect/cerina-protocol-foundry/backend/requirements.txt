@@ -1,0 +1,37 @@
+# Cerina Protocol Foundry - Python Dependencies
+
+# Core Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# LangGraph & LLM
+langgraph>=0.0.40
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-openai>=0.0.5
+langchain-anthropic>=0.1.0
+
+# Database
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+psycopg2-binary>=2.9.0  # PostgreSQL driver
+
+# MCP Server
+mcp>=0.1.0
+
+# WebSocket & Async
+websockets>=12.0
+httpx>=0.25.0
+
+# Utilities
+python-dotenv>=1.0.0
+python-multipart>=0.0.6
+
+# Development
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.11.0
+ruff>=0.1.0
+mypy>=1.7.0
